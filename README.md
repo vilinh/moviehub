@@ -8,7 +8,7 @@ Makes use of and fetches data from [The Movie Database API](https://www.themovie
 - Add feature for user rating/comments/notes.
 
 # preview
-![MovieHub (1)](https://user-images.githubusercontent.com/81380688/148633411-92aebf59-fed9-4441-a4c3-9bcf2fefbd95.png)
+![MovieHub](https://user-images.githubusercontent.com/81380688/148657344-011bef8f-034d-4eb0-9dbc-3541f2153e69.png)
 
 ## Available Scripts
 (Download necessary packages with `npm install`)
