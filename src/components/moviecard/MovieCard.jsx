@@ -2,6 +2,7 @@ import React from "react";
 import "./moviecard.css";
 import MovieControls from "./MovieControls";
 
+
 export default function MovieCard({ movie, type }) {
   return (
     <div className="movie-card">

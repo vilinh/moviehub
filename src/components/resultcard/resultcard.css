@@ -13,6 +13,11 @@
   margin-bottom: 20px;
 }
 
+.result-card h5{
+  margin: 0;
+  padding: 0;
+}
+
 .result-card .poster-wrapper img,
 .filler-poster {
   width: 75px;

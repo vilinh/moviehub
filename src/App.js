@@ -5,6 +5,7 @@ import Header from "./components/header/Header";
 import Watchlist from "./components/watchlist/Watchlist";
 import Add from "./components/add/Add";
 import Watched from "./components/watchlist/Watched";
+import Browse from "./components/browse/Browse";
 
 import { GlobalProvider } from "./context/GlobalState";
 import Home from "./components/Home";
@@ -18,6 +19,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/watchlist" element={<Watchlist />} />
           <Route path="/watched" element={<Watched />} />
+          <Route path="/browse" element={<Browse />} />
           <Route path="/add" element={<Add />} />
         </Routes>
       </BrowserRouter>

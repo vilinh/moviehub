@@ -31,9 +31,14 @@ export default function ResultCard({ movie }) {
       <div className="info">
         <div className="header">
           <h3 className="title">{movie.title}</h3>
-          <h4 className="release-date">
-            {movie.release_date ? movie.release_date.substring(0, 4) : ""}
-          </h4>
+          <div className="sub-info">
+            <h4 className="release-date">
+              {movie.release_date ? movie.release_date.substring(0, 4) : ""}
+            </h4>
+            <div className="rating-group">
+              <h5 className="rating">Rating: {movie.vote_average}</h5>
+            </div>
+          </div>
         </div>
         <div className="controls">
           <button

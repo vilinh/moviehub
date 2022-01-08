@@ -14,6 +14,9 @@ export default function Header() {
           </div>
           <ul className="nav-links">
             <li>
+              <Link to="/browse">Browse</Link>
+            </li>
+            <li>
               <Link to="/watchlist">Watchlist</Link>
             </li>
             <li>
