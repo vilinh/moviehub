@@ -1,0 +1,31 @@
+.landing {
+  background-color: var(--grey);
+}
+
+.landing-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 80vh;
+}
+
+.landing-text {
+  font-size: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  order: 1;
+  text-align: center;
+}
+
+.landing-text h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.landing-text > p {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
