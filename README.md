@@ -4,6 +4,9 @@ This project was created with React. Features usage of Context API and saving da
 
 Makes use of and fetches data from [The Movie Database API](https://www.themoviedb.org/).
 
+# preview
+![MovieHub (1)](https://user-images.githubusercontent.com/81380688/148633411-92aebf59-fed9-4441-a4c3-9bcf2fefbd95.png)
+
 ## Available Scripts
 (Download necessary packages with `npm install`)
 
